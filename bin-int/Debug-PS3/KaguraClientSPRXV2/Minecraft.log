@@ -1,0 +1,62 @@
+﻿Build started 18/08/2023 03:38:22.
+     1>Project "C:\Users\ethan\Downloads\Kagura Client V2 Source\src\Minecraft.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         Main.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_KaguraClientSPRXV2 -DSTUBNAME=cellPrx_KaguraClientSPRXV2_stub -o "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin-int\Debug-PS3\KaguraClientSPRXV2\Main.o" -c -Xdepmode=1 -MD -Xmserrors -I"C:\Program Files (x86)\SN Systems\PS3\ppu\include\sn" -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xnotocrestore=1 -Xstd=cpp11 -Xc-=rtti "C:\Users\ethan\Downloads\Kagura Client V2 Source\src\Menu\Main.cpp"
+     1>.\Util/Variables.h(9,17): warning 2623: conversion from a string literal to "char *" is deprecated
+         
+     1>.\Games/Vector.h(24,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(28,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(67,7): warning 429: qualified name is not allowed in member declaration
+         
+     1>.\Games\Vector.h(44,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(53,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(56,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(59,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(62,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(93,9): warning 432: returning reference to local temporary
+         
+     1>.\Games\Vector.h(97,9): warning 432: returning reference to local temporary
+         
+     1>.\Games/Struct.h(50,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+         
+     1>.\Games\Struct.h(103,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+         
+     1>.\Games\Struct.h(218,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+         
+     1>.\Games/GamesFunctions.h(95,65): warning 1322: taking the address of a temporary
+         
+     1>.\Games\GamesFunctions.h(96): warning 942: missing return statement at end of non-void function "Font_width"
+         
+     1>.\Games\GamesFunctions.h(99,63): warning 1322: taking the address of a temporary
+         
+     1>.\Games\GamesFunctions.h(99,81): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+         
+     1>.\Games\GamesFunctions.h(99,84): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+         
+     1>.\Games\GamesFunctions.h(103,63): warning 1322: taking the address of a temporary
+         
+     1>.\Games\GamesFunctions.h(103,87): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+         
+     1>.\Games\GamesFunctions.h(103,90): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+         
+     1>.\Games\GamesFunctions.h(107,89): warning 1322: taking the address of a temporary
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=fsprx -o "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin\Debug-PS3\KaguraClientSPRXV2.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" --notocrestore -sn-full-map -Map="C:\Users\ethan\Downloads\Kagura Client V2 Source\bin\Debug-PS3\KaguraClientSPRXV2.map" --start-group "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin-int\Debug-PS3\KaguraClientSPRXV2\Main.o" "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin-int\Debug-PS3\KaguraClientSPRXV2\FileSystem.o" "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin-int\Debug-PS3\KaguraClientSPRXV2\SystemCalls.o" "-lsysutil_np_stub" "-lnet_stub" "-lnetctl_stub" C:/usr/local/cell\target\ppu\lib\libc.a "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libm.a C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\liblv2_stub.a C:/usr/local/cell\target\ppu\lib\libc_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\hash\libsha256.a libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         Minecraft.vcxproj -> C:\Users\ethan\Downloads\Kagura Client V2 Source\bin\Debug-PS3\KaguraClientSPRXV2.sprx
+       PostBuildEvent:
+         IF EXIST "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin\Debug-PS3\InjectSPRX.exe"  "C:\Users\ethan\Downloads\Kagura Client V2 Source\bin\Debug-PS3\InjectSPRX.exe"
+         :VCEnd
+     1>Done Building Project "C:\Users\ethan\Downloads\Kagura Client V2 Source\src\Minecraft.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17
